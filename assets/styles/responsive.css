@@ -1,0 +1,137 @@
+@media (max-width: 1245px) {
+    .section .description {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 1124px) {
+    .section.about {
+        flex-direction: column;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+
+    .section.about {
+        column-gap: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section .features {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .section .features .feature {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    .section.start {
+        flex-wrap: wrap;
+    }
+
+    .section .description {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .section .statistic {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .section .description img {
+        display: none;
+    }
+
+    .section #commands-list {
+        margin-top: 25px;
+        width: 400px;
+    }
+
+    .section.stats {
+        flex-direction: column;
+        column-gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 14px;
+        z-index: 1;
+    }
+
+    .navbar .container ul {
+        display: none;
+    }
+
+    .navbar #bars {
+        display: block;
+    }
+
+    .navbar .lang-selector {
+        display: none;
+    }
+
+    .navbar .container ul .lang-selector {
+        display: flex;
+        margin-left: auto;
+    }
+
+   .navbar .container ul {
+       margin: 0;
+       padding: 25px;
+       position: absolute;
+       left: 0;
+       top: var(--navbar-height);
+       background-color: var(--background-color-third);
+       width: 100%;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+    .section .description p {
+        font-size: var(--font-size-second);
+    }
+}
+
+@media (max-width: 655px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    footer .copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 515px) {
+    .section .social #grapich {
+        display: none;
+    }
+}
+
+@media (max-width: 451px) {
+    .section #commands-list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .section #commands-list {
+        display: none;
+    }
+}
